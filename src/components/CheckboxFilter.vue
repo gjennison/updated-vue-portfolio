@@ -34,29 +34,27 @@ export default {
       if(this.checkedNames.includes('all')) {
         this.checkedNames = []
       }
+      
       if(this.checkedNames.includes(tech)) this.checkedNames.splice(this.checkedNames.indexOf(tech), 1);
       else this.checkedNames.push(tech)
 
-      console.log(this.checkedNames)
-      console.log(tech)
-      this.$emit('emit',this.checkedNames);
-
-
       let tab = document.querySelector(`.checkboxFilter .${tech}`)
-
-
       let tabs = document.querySelectorAll('.filter');
+
       if(tech === 'all'){
         for (let index = 0; index < tabs.length; index++) {
           let element = tabs[index];
           element.classList.remove('active')
         }
         tabs[0].classList.add('active')
+        this.checkedNames = ['all']
       }
       else{
         tabs[0].classList.remove('active');
         tab.classList.toggle('active');
       }
+
+      this.$emit('emit',this.checkedNames);
     }
   }
 }

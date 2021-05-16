@@ -24,7 +24,6 @@ export default {
   },
   methods: {
     updateCheckbox: function(checkedNames){
-      console.log(checkedNames)
       this.checkedNames = checkedNames
     },
 

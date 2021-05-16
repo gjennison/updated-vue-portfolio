@@ -28,12 +28,10 @@ export default {
   },
   methods: {
     projectsClicked: function(){
-      console.log('projects clicked emit');
       this.showProjects = true;
     },
 
     aboutClicked: function(){
-      console.log('about clicked emit');
       this.showProjects = false;
     }
   }

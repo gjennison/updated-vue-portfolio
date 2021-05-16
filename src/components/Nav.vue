@@ -18,8 +18,6 @@ export default {
   },
   methods: {
       projectsClicked: function(){
-          console.log('projects clicked')
-
           let tabs = document.querySelectorAll('.tab');
 
           tabs[0].classList.add('active');
@@ -28,8 +26,6 @@ export default {
           this.$emit('projectsClicked');
       },
       aboutClicked: function(){
-          console.log('about clicked')
-
           let tabs = document.querySelectorAll('.tab');
           
           tabs[0].classList.remove('active')
