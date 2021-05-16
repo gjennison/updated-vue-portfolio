@@ -9,8 +9,13 @@ import Container from './components/Container.vue'
 
 export default {
   name: 'App',
+  title: 'George Jennison Portfolio',
   components: {
     Container
+  },
+
+  created() {
+    document.title = "George Jennison Portfolio";
   }
 }
 </script>
