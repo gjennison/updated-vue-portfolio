@@ -3,7 +3,7 @@
       <Project category="vue" v-show="vue" :info="vueProjects"/>
       <Project category="react" v-show="react" :info="reactSummative"/>
       <Project category="bulma" v-show="bulma" :info="cleaningCompany"/>
-      <Project category="wordpress" v-show="wordpress" :info="vueProjects"/>
+      <!-- <Project category="wordpress" v-show="wordpress" :info="vueProjects"/> -->
       <Project category="vue" v-show="vue" :info="portfolio"/>
   </div>
 </template>
@@ -58,7 +58,7 @@ export default {
         title: "This Site!",
         description: "This simple website was developed using Vue JS",
         img: "portfolio.png",
-        github: "https://github.com/gjennison/portfolio",
+        github: "https://github.com/gjennison/updated-vue-portfolio",
         netlify: "https://jennison.design/",
       }
     }
