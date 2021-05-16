@@ -81,8 +81,8 @@ export default {
     }
 
     .content{
-      position: relative;
-      top: 35px;
+      // position: relative;
+      // top: 35px;
 
       .links{
         display: flex;
@@ -102,7 +102,7 @@ export default {
     }
 
     .content{
-      top: 30px;
+      // top: 30px;
 
       .links{
         .link{
