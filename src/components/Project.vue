@@ -48,6 +48,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+@media screen and (min-width: 750px){
+  .project{
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+}
+
 .project{
   display: flex;
   align-items: center;
