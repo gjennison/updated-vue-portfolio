@@ -1,11 +1,11 @@
 <template>
   <div class="projects">
       <Project category="react" v-show="react" :info="reactSummative"/>
-      <Project category="vue" v-show="vue" :info="vueProjects"/>
+      <Project category="vue" v-show="vue" :info="weather"/>
       <!-- <Project category="wordpress" v-show="wordpress" :info="vueProjects"/> -->
       <Project category="bulma" v-show="bulma" :info="cleaningCompany"/>
       <Project category="vue" v-show="vue" :info="portfolio"/>
-      <Project category="vue" v-show="vue" :info="weather"/>
+      <Project category="vue" v-show="vue" :info="vueProjects"/>
   </div>
 </template>
 
