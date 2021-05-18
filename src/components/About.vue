@@ -4,7 +4,7 @@
     <div class="content">
       <p>I'm George, a Front End Developer based in Christchurch. <br><br>
       I am proficient in various Front End technologies such as Vue, React, Typescript, Sass, and more.<br><br>
-      I have exprience with basic back end applications in Express JS. Currently I'm learning Django.
+      I have experience with basic back end applications in Express JS. Currently I'm learning Django.
       </p>
 
       <div class="links">
