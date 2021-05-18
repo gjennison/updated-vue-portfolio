@@ -5,6 +5,7 @@
       <!-- <Project category="wordpress" v-show="wordpress" :info="vueProjects"/> -->
       <Project category="bulma" v-show="bulma" :info="cleaningCompany"/>
       <Project category="vue" v-show="vue" :info="portfolio"/>
+      <Project category="vue" v-show="vue" :info="portfolio"/>
   </div>
 </template>
 
@@ -60,6 +61,15 @@ export default {
         img: "portfolio.png",
         github: "https://github.com/gjennison/updated-vue-portfolio",
         netlify: "https://jennison.design/",
+      },
+
+      weather: {
+        id: "weather",
+        title: "Simple Weather API app",
+        description: "Type any city name into this app and it pulls data from a third party weather API, then displays it on a dashboard.",
+        img: "weather.png",
+        github: "https://github.com/gjennison/weather-app",
+        netlify: "https://weather-app-in-vue.netlify.app/"
       }
     }
   },
