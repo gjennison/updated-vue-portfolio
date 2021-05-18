@@ -38,7 +38,7 @@ export default {
       reactSummative: {
         id: "reactSummative",
         title: "Buy and Sell",
-        description: "Developed using React JS and Express. This is a buy and sell mobile app. It performs GET, POST, PUT, DELETE requests from a REST API developed with Express, this server is running on <a href='https://dry-river-04948.herokuapp.com/'>Heroku</a>.  It may take a few seconds for the app to load the data.<br><br>It is best viewed in the mobile view on dev tools.",
+        description: "Developed using React JS and Express. This is a buy and sell mobile app. It performs GET, POST, PUT, DELETE requests from a REST API developed with Express, this server is running on Heroku.  It may take a few seconds for the app to load the data.<br><br>It is best viewed in the mobile view on dev tools.",
         img: "buy-and-sell.png",
         github: "https://github.com/gjennison/summative",
         netlify: "https://summative.netlify.app/",
