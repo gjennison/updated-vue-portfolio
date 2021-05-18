@@ -52,9 +52,10 @@ export default {
 @media screen and (min-width: 750px){
   .project{
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
+    justify-content: space-between;
   }
 }
+
 
 .project{
   display: flex;
@@ -66,6 +67,9 @@ export default {
     // height: 200px;
     border-radius: 8px;
     padding: 12px;
+  }
+  .content{
+    width: 50%;
   }
 
   .view-more{
