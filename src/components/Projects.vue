@@ -5,7 +5,7 @@
       <!-- <Project category="wordpress" v-show="wordpress" :info="vueProjects"/> -->
       <Project category="bulma" v-show="bulma" :info="cleaningCompany"/>
       <Project category="vue" v-show="vue" :info="portfolio"/>
-      <Project category="vue" v-show="vue" :info="portfolio"/>
+      <Project category="vue" v-show="vue" :info="weather"/>
   </div>
 </template>
 
