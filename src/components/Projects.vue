@@ -70,6 +70,15 @@ export default {
         img: "weather.png",
         github: "https://github.com/gjennison/weather-app",
         netlify: "https://weather-app-in-vue.netlify.app/"
+      },
+
+      todo: {
+        id: "todo",
+        title: "Todo react app",
+        description: "A Simple to do list app built in react",
+        img: "todo.png",
+        github: "https://github.com/gjennison/react-todo",
+        netlify: "https://george-todo.netlify.app/",
       }
     }
   },
