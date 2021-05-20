@@ -6,7 +6,7 @@
       <Project category="bulma" v-show="bulma" :info="cleaningCompany"/>
       <Project category="vue" v-show="vue" :info="portfolio"/>
       <Project category="react" v-show="react" :info="todo"/>
-      <Project category="vue" v-show="vue" :info="vueProjects"/>
+      <!-- <Project category="vue" v-show="vue" :info="vueProjects"/> -->
       <Project category="vue" v-show="vue" :info="movieSearch"/>
   </div>
 </template>
