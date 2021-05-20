@@ -7,6 +7,7 @@
       <Project category="vue" v-show="vue" :info="portfolio"/>
       <Project category="react" v-show="react" :info="todo"/>
       <Project category="vue" v-show="vue" :info="vueProjects"/>
+      <Project category="vue" v-show="vue" :info="movieSearch"/>
   </div>
 </template>
 
@@ -80,6 +81,15 @@ export default {
         img: "todo.png",
         github: "https://github.com/gjennison/react-todo",
         netlify: "https://george-todo.netlify.app/",
+      },
+
+      movieSearch: {
+        id: "movieSearch",
+        title: "Movie Database",
+        description: "Search for any movie and this app will call a third party API and get all movies which title includes your search query. Developed in Vue",
+        img: "movie.png",
+        github: "https://github.com/gjennison/movie-search",
+        netlify: "https://george-movie-search.netlify.app"
       }
     }
   },
