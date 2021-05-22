@@ -41,10 +41,10 @@ export default {
       reactSummative: {
         id: "reactSummative",
         title: "Buy and Sell",
-        description: "Developed using React JS and Express. This is a buy and sell mobile app. It performs GET, POST, PUT, DELETE requests from a REST API developed with Express, this server is running on Heroku.  It may take a few seconds for the app to load the data.<br><br>It is best viewed in the mobile view on dev tools.",
+        description: "Developed using React JS and Express. This is a buy and sell mobile app. It performs GET, POST, PUT, and DELETE requests from a REST API developed using Express, with a server running on Heroku.<br><br> I have two versions: one <a href='https://summative-no-server.netlify.app'>here</a> that uses local data instead of Heroku (this loads faster); and <a href='https://summative.netlify.app'>this one</a> that uses Heroku. It may take a few seconds for the app to load the data.<br><br>It is best viewed in the mobile view on dev tools.",
         img: "buy-and-sell.png",
         github: "https://github.com/gjennison/summative",
-        netlify: "https://summative.netlify.app/",
+        netlify: "https://summative-no-server.netlify.app/",
       },
 
       cleaningCompany: {
