@@ -13,7 +13,7 @@
       bulma
     </div>
     <div class="filter wordpress" @click="emit('wordpress')">
-      wordpress
+      shopify
     </div>
   </div>
 

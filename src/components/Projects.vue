@@ -1,6 +1,6 @@
 <template>
   <div class="projects">
-      <Project category="shopify" v-show="shopify" :info="magicHollow"/>
+      <Project category="wordpress" v-show="wordpress" :info="magicHollow"/>
       <Project category="react" v-show="react" :info="reactSummative"/>
       <Project category="vue" v-show="vue" :info="weather"/>
       <!-- <Project category="wordpress" v-show="wordpress" :info="vueProjects"/> -->
