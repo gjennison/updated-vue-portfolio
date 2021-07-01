@@ -1,5 +1,6 @@
 <template>
   <div class="projects">
+      <Project category="shopify" v-show="shopify" :info="magicHollow"/>
       <Project category="react" v-show="react" :info="reactSummative"/>
       <Project category="vue" v-show="vue" :info="weather"/>
       <!-- <Project category="wordpress" v-show="wordpress" :info="vueProjects"/> -->
@@ -28,6 +29,15 @@ export default {
       react: true,
       bulma: true,
       wordpress: true,
+
+      magicHollow: {
+        id: "magicHollow",
+        title: "Magic Hollow",
+        description: "Using Shopify I developed a new theme for the clothing company Magic Hollow. <a href='https://magichollow.co.nz/'>Magic Hollow</a>",
+        img: "magichollow.png",
+        github: "https://magichollow.co.nz/",
+        netlify: "https://magichollow.co.nz/",
+      },
 
       vueProjects: {
         id: "vueProjects",
